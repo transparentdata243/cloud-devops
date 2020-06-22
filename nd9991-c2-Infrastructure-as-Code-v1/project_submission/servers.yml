@@ -67,9 +67,9 @@ Resources:
           apt-get install apache2 -y
           systemctl start apache2.service
           cd /var/www/html
-          echo "Udacity Demo Web Server Up and Running!" > index.html
+          echo "it works! Udagram, Udacity" > index.html
       ImageId: ami-085925f297f89fce1
-      KeyName: useast-1
+      #KeyName: <Only for debug>
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t2.micro
