@@ -69,7 +69,7 @@ Resources:
           cd /var/www/html
           echo "it works! Udagram, Udacity" > index.html
       ImageId: ami-085925f297f89fce1
-      #KeyName: <Only for debug>
+      #KeyName: <Only enable for debug>
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t2.micro
