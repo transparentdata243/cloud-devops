@@ -1,0 +1,133 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0ac80df6eff0e70b5",
+                    "InstanceId": "i-03597b225821e473a",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "jumpbox2",
+                    "LaunchTime": "2020-07-20T23:35:24+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1e",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-49-24.ec2.internal",
+                    "PrivateIpAddress": "172.31.49.24",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-100-26-173-198.compute-1.amazonaws.com",
+                    "PublicIpAddress": "100.26.173.198",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-dde3f0e3",
+                    "VpcId": "vpc-e3b3ab99",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2020-07-20T23:35:25+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-040d7109219ac2651"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-100-26-173-198.compute-1.amazonaws.com",
+                                "PublicIp": "100.26.173.198"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2020-07-20T23:35:24+00:00",
+                                "AttachmentId": "eni-attach-0d9d3f82c87dd00d1",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-3",
+                                    "GroupId": "sg-0447db5c44f1a3925"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "06:22:a7:44:a3:73",
+                            "NetworkInterfaceId": "eni-086859bfb3a42c718",
+                            "OwnerId": "122731332455",
+                            "PrivateDnsName": "ip-172-31-49-24.ec2.internal",
+                            "PrivateIpAddress": "172.31.49.24",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-100-26-173-198.compute-1.amazonaws.com",
+                                        "PublicIp": "100.26.173.198"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-49-24.ec2.internal",
+                                    "PrivateIpAddress": "172.31.49.24"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-dde3f0e3",
+                            "VpcId": "vpc-e3b3ab99",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-3",
+                            "GroupId": "sg-0447db5c44f1a3925"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Project",
+                            "Value": "Udacity"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled"
+                    }
+                }
+            ],
+            "OwnerId": "122731332455",
+            "ReservationId": "r-00df8e0bfe4c1f789"
+        }
+    ]
+}
